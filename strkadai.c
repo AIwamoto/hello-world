@@ -8,6 +8,6 @@ int main(int argc, char **argv)
   strcpy(a, "SiM");
   strcpy(b,"SUICIDE SILENCE");
   A = strcmp(a, b);
-  printf("strcmp‚ÌŒ‹‰Ê = %s\n", A);
+  printf("strcmp‚ÌŒ‹‰Ê = %d\n", A);
   return 0;
 }
