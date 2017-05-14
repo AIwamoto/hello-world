@@ -8,6 +8,7 @@ int main (int argc, char **argv)
   scanf("%f", &r);
   l = 2 * pi * r;
   s = pi * r * r;
+  printf("”¼Œa%7.5f‚Ì\n", r);
   printf("‰~ü : %7.5f\n–ÊÏ : %7.5f\n", l, s);
   return(0);
 }
