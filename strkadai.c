@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
   char s[30], t[30];
-  int a, b, i;
+  int a, b, i = 0;
 
   for (i = 0 ; i < 10; i++)
   {
