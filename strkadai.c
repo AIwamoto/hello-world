@@ -3,11 +3,17 @@
 
 int main(int argc, char **argv)
 {
-  char a[30], b[30];
-  int A, B, C, D, E, F, G, H;
-  strcpy(a, "SiM");
-  strcpy(b,"SUICIDE SILENCE");
-  A = strcmp(a, b);
-  printf("strcmp‚ÌŒ‹‰Ê = %d\n", A);
+  char s[30], t[30];
+  int a, b, i;
+
+  for (i = 0 ; i < 10; i++)
+  {
+    scanf("%s", s);
+    scanf("%s", t);
+    a = strcmp(s, t);
+    b = strcmp(t, s);
+    printf("%s‚Æ%s‚Æ‚Ìstrcmp = %d\n", s, t, a);
+    printf("%s‚Æ%s‚Æ‚Ìstrcmp = %d\n", t, s, b);
+  }
   return 0;
 }
