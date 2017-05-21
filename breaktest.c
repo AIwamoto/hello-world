@@ -8,10 +8,10 @@ int main(int argc, char **argv){
   printf("int型のデータを入力して下さい。\n" );
   scanf("%d", &i);
   c = (char) i;
-  printf("char型に直すと %c となります。\n", c);
+  printf("%d をchar型に直すと %c となります。\n", i, c);
   printf("次にdouble型のデータを入力してください。\n");
   scanf("%lf", &d);
   f = (float) d;
-  printf("float型に直すと %f となります。\n", f);
+  printf("%0.10f をfloat型に直すと %0.10f となります。\n", d, f);
   return 0;
 }
